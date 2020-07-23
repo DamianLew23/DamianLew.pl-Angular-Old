@@ -1,42 +1,12 @@
-<header id="mccan-identity">
-  <!-- Logo -->
-  <div class="logo">
-    <a href="index.html" class="mccan-logo-link" rel="home"> <img src="images/logo.png" class="mccan-logo" alt=""> </a>
-  </div>
-</header>
+<app-header></app-header>
 <!-- Menu -->
-<div id="mccan-site-menu">
-  <nav class="mccan-nav-menu">
-    <ul>
-      <li class="mccan-menu-item current-mccan-menu-item"><a href="index.html">Home</a></li>
-      <li class="mccan-menu-item"><a href="resume.html">Resume</a></li>
-      <li class="mccan-menu-item"><a href="portfolio.html">Portfolio</a></li>
-      <li class="mccan-menu-item"><a href="blog.html">Blog</a></li>
-      <li class="mccan-menu-item"><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
-</div>
-<div class="mccan-menu-overlay"></div>
-<div class="mccan-site-menu-toggle">
-  <a href="about.html#mccan-site-menu" class="mccan-ti"> <span class="screen-reader-text">Toggle navigation</span> </a>
-</div>
+<app-menu></app-menu>
 <!-- Social Media -->
-<div id="mccan-social-profiles">
-  <nav class="mccan-social-menu">
-    <ul>
-      <li class="mccan-menu-item"><a href="http://facebook.com" target="_blank"><span class="mccan-ti"></span></a></li>
-      <li class="mccan-menu-item"><a href="http://twitter.com" target="_blank"><span class="mccan-ti"></span></a></li>
-      <li class="mccan-menu-item"><a href="http://instagram.com" target="_blank"><span class="mccan-ti"></span></a></li>
-    </ul>
-  </nav>
-</div>
+<app-social-media></app-social-media>
 <!-- Media -->
-<div class="mccan-hero-media">
-  <div class="owl-carousel" data-expand-duration="800">
-    <div class="item owl-lazy" data-src="images/1920x1080.jpg"></div>
-  </div> <span class="overlay"></span> <span class="mccan-ti mccan-ti-spin mccan-ti-loading"></span>
-</div>
+<app-media></app-media>
 <!-- Content -->
+<router-outlet></router-outlet>
 <div class="mccan-content-wrap clearfix">
   <!-- About Me -->
   <div class="mccan mccan-page">
@@ -157,45 +127,6 @@
   </div>
 </div>
 <!-- Hidden Menu -->
-<div class="mccan-additional-menu-content">
-  <h3 class="mccan-title-small">Web Designer</h3>
-  <h2 class="mccan-title-2">Rory McCann</h2> <img src="images/200x200.jpg" alt="">
-  <p>Hi, My name is Rory McCann. I am a Web Designer, and etiam accumsan scelerisque rhoncus. Nulla quis laoreet velit. Pelteqle quisu velleopha retra congue. Lorem ipsum dolor consectetur.</p> <a href="#" class="btn float-btn flat-btn ajax">Hire Me</a>
-  <div class="divider2"></div>
-  <h3 class="mccan-title-small">@rorymccan</h3>
-  <h2 class="mccan-title-2">Instagram</h2>
-  <div class="sb-widget fl-wrap">
-    <div class="mccan-insta-thumb">
-      <a href="#"><img src="images/200x200.jpg" alt=""></a>
-      <a href="#"><img src="images/200x200.jpg" alt=""></a>
-      <a href="#"><img src="images/200x200.jpg" alt=""></a>
-      <a href="#"><img src="images/200x200.jpg" alt=""></a>
-      <a href="#"><img src="images/200x200.jpg" alt=""></a>
-      <a href="#"><img src="images/200x200.jpg" alt=""></a>
-    </div>
-  </div>
-</div>
-<!-- My Info -->
-<div class="mccan-my-info">
-  <div class="mccan-box">
-    <div class="field field-my-info field-separator">
-      <h6>Location</h6>
-      <p>California, USA</p>
-    </div>
-    <div class="field field-my-info field-separator">
-      <h6>E-Mail</h6>
-      <p>info@mccan.com</p>
-    </div>
-    <div class="field field-my-info field-separator">
-      <h6>Phone</h6>
-      <p>+1 123 000 4444</p>
-    </div>
-    <div class="clear"></div>
-    <button type="submit" class="button-color"><span class="ti-download"></span> DOWNLOAD CV</button>
-  </div>
-</div>
-<!-- Js -->
-<script src="assets/js/jquery-3.3.1.min.js"></script>
-<script src="assets/js/modernizr-custom.js"></script>
-<script src="assets/js/owl-carousel.min.js"></script>
-<script src="assets/js/functions.js"></script>
+<app-hidden-menu></app-hidden-menu>
+<!-- Footer -->
+<app-footer></app-footer>
