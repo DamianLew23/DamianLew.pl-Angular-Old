@@ -6,6 +6,7 @@ import { SocialMediaComponent } from './social-media/social-media.component';
 import { HiddenMenuComponent } from './hidden-menu/hidden-menu.component';
 import { MediaComponent } from './media/media.component';
 import { MenuComponent } from './menu/menu.component';
+import {RouterModule} from '@angular/router';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { MenuComponent } from './menu/menu.component';
     MenuComponent
   ],
     imports: [
-        CommonModule
+        CommonModule,
+        RouterModule
     ]
 })
 export class CoreModule { }

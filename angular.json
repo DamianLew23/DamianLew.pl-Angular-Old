@@ -25,10 +25,16 @@
             ],
             "styles": [
               "./node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/assets/css/style.css"
+              "src/assets/css/style.css",
+              "src/assets/css/themify-icons.css",
+              "src/assets/css/et-lineicons.css",
+              "src/assets/css/style-animations.css"
             ],
             "scripts": [
-              "./node_modules/jquery/dist/jquery.min.js"
+              "./node_modules/jquery/dist/jquery.min.js",
+              "src/assets/js/modernizr-custom.js",
+              "src/assets/js/functions.js",
+              "src/assets/js/owl-carousel.min.js"
             ]
           },
           "configurations": {

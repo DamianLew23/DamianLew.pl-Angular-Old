@@ -1,4 +1,4 @@
-/* 
+/*
  01. Google Fonts
  02. Typography
  03. Useful Classes
@@ -690,6 +690,7 @@ input[type="submit"].button-white:focus {
     display: inline-block;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    width: 100%;
     margin-right: -30px;
     margin-left: -30px;
 }
@@ -698,7 +699,7 @@ input[type="submit"].button-white:focus {
     position: relative;
     width: 100%;
     min-height: 1px;
-    padding-right: 30px;
+    padding-right: 5px;
     padding-left: 30px;
 }
 
@@ -727,7 +728,7 @@ input[type="submit"].button-white:focus {
     }
 
     .grid-container .grid-column {
-        padding-right: 60px;
+        padding-right: 5px;
         padding-left: 60px;
     }
 }
@@ -4000,7 +4001,7 @@ ul {
 }
 
 .mccan-timeline > li .mccan-timeline-content {
-    padding: 0 50px;
+    padding: 0 5px 0 50px;
     position: relative;
 }
 
